@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap");
+* {
+    color: white;
+    font-family: "Baloo Da 2", cursive;
+}
+body {
+    background-color: #333;
+    margin-left: 0px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+span {
+    background-color: #222;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+section {
+    position: relative;
+    height: 30px;
+    font-size: 23px;
+    color: black;
+}
+div {
+}
+p {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+.container {
+    font-size: 2.7rem;
+    position: absolute;
+    right: 0;
+}
+.point {
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+}
+.line-v {
+    margin-top: 0;
+    width: 100vw;
+    height: 5px;
+}
+.scale {
+    top: 0;
+    width: 1px;
+    height: 19200px;
+    background-color: #444;
+}
+.scale p {
+    rotate: 90deg;
+    font-size: 1.5rem;
+}
+.scale p:nth-child(2) {
+    opacity: 0;
+}
